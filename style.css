@@ -1,0 +1,133 @@
+body{
+    font-family: Tahoma;
+}
+.header{
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.registration{
+    background-color: #2F65AD;
+    height: 700px;
+    color: #FFFFFF;
+}
+.header-text{
+    color: black;
+}
+a{
+    color: black;
+}
+.registration-info{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.registration-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration-info__title{
+    width: 100%;
+}
+.registration-info__text{
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+}
+.registration-form__form{
+    height: 395px;
+}
+
+.registration-form__btn{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 65px;
+}
+.footer{
+
+}
+.footer-name{
+    font-weight: bold;
+}
+
+
+/*Contacts*/
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
+.contacts__title{
+    margin-top: 50px;
+    text-align: center;
+}
+.contacts-img-text__text{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.contacts-img-text{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.contacts__text{
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*Price*/
+
+
+.price{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-card{
+    color: black;
+}
+.price__title{
+    text-align: center;
+}
+.price__text{
+    color: black;
+}
+.price-card__price{
+    color: black;
+}
+/*About*/
+
+.about{
+    height: 650px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.about__title{
+    text-align: center;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+}
+.about-text__paragraph{
+    font-size: 25px;
+}
+
+.About{
+    height: 900px;
+}
+.img{
+    margin-top: 10px;
+}
